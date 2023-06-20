@@ -1,0 +1,56 @@
+.img-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image :hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.input-cont{
+  text-align: center;
+}
+.search{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-cont{
+  text-align: center;
+}
+
+.btn {
+  background-color: black;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  padding: 4px 22px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input {
+  width: 30%;
+  height: 20px;
+}
+
+.search-btn{
+  padding: 3px 25px;
+  font-style: italic;
+  font-weight: bolder;
+  
+}
